@@ -2,5 +2,9 @@
 
 {% block content %}
     <h1>Test App</h1>
+
+    <div class="list-group">
+        <a href="{% url 'test_app:ajax' %}" class="list-group-item list-group-item-action">AJAX</a>
+    </div>
 {% endblock %}
 
