@@ -1,0 +1,10 @@
+graft *
+prune .hg
+prune .hgignore
+prune .ropeproject
+prune .git
+prune .gitignore
+include LICENSE
+include README.md
+recursive-include test_app/templates *
+recursive-include test_app/fixtures *
