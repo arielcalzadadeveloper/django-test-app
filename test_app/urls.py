@@ -1,6 +1,6 @@
 from django.conf.urls import url
 
-from test_app.views import Home
+from test_app.views.home import Home
 
 app_name = "test_app"
 
